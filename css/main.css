@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    
+    margin: auto;
+   
+}
+.navbar{
+   background-color: black;
+   
+}
+
+.logo{
+    float: left;
+   
+}
+
+.list{
+    float: right;
+    
+}
+
+.logo img{
+    width: 50%;
+}
+
+.list ul{
+    list-style-type: none;
+}
+.list ul li {
+    float: left;
+    margin-right: 10px;
+}
+.list ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+.portfolio{
+    text-align: center;
+    background-color:grey;
+}
+.portfolio-item{
+    float: left;
+    width: 33.33%;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.portfolio-item img{
+    display: block;
+    width: 100%;
+}
+h2 {
+    text-transform: capitalize;
+}
+h3{
+    text-transform: capitalize;
+ }
+ p{
+     text-transform: capitalize;
+     
+ }
